@@ -304,7 +304,7 @@ class Paster {
                 '-noninteractive',
                 '-nologo',
                 '-sta',
-                '-executionpolicy', 'unrestricted',
+                '-executionpolicy', 'bypass',
                 '-windowstyle', 'hidden',
                 '-file', scriptPath,
                 imagePath
